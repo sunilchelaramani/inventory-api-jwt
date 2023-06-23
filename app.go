@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/dgrijalva/jwt-go"
+	"github.com/golang-jwt/jwt"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/gorilla/mux"
 )
