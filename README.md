@@ -10,11 +10,11 @@ Simple Inventory Management API example with JWT
 
 To get JWT token
 
-curl -v -X POST -H "Content-Type: application/json" -d '{"username":"admin","password":"password"}' http://localhost:8080/login
+"curl -v -X POST -H "Content-Type: application/json" -d '{"username":"admin","password":"password"}' http://localhost:8080/login"
 
 To use JWT token
 
-curl -v -H "Authorization: bearer_token_goes_here" http://localhost:8080/products
+"curl -v -H "Authorization: bearer_token_goes_here" http://localhost:8080/products"
 
 ## License
 
