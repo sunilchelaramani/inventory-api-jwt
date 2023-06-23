@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	"github.com/dgrijalva/jwt-go"
+	"github.com/golang-jwt/jwt"
 )
 
 // Define a secret key for signing the JWT tokens
